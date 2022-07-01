@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <LINK rel=StyleSheet href="estilo_compra.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="muestra_productos">
+
+    <div id="links">
+        <h2 id="titulo">Ejercicio General 0</h2><br>
+        <a href="Ejercicio_general_0.html">Volver a inicio.</a>
+    </div>
+    <div id="div_padre">
+        <div id="imagenes">
+            <img id="cafe"
+                src="https://www.lavirginia.com.ar/wp-content/uploads/2021/11/clasico-molido-torrado-1000.jpg">
+            <img id="chocolate"
+                src="https://www.chocolatessantocildes.com/images/thumbs/0000127_chocolate-negro-75-cacao-sin-azucar-200-grs_600.jpeg">
+            <img id="alfajor"
+                src="https://tienda.pago24.com.ar/media/catalog/product/cache/8bba2abe6d282ec93669d82aeb928040/l/f/lf28.jpeg">
+        </div>
+        <div id="inputs">
+            <input id="input_uno" class="input_1" type="number">
+            <input id="input_dos" class="input_2" type="number">
+            <input id="input_tres" class="input_3" type="number">
+        </div>
+        <div class="div_boton_agregar">
+            <button id="boton_agregar" class="boton_agregar" onclick="sumarProductos()">Agregar al carrito</button>
+        </div>
+        <div class="div_h4">
+            <h4 class="h4_titulo">Productos en el carrito: </h4>
+            <h4 id="h4_cant_productos" class="h4_cant_productos"></h4>
+        </div>
+        <h4 class="h4_tipo_pago">Tipo de pago:</h4>
+        <div id="item1"></div>
+        <div id="cuotas"></div>
+        <div id="item2"></div>
+        <div id="contenedor_boton_calcular">
+            <button>Cacular</button>
+        </div>
+    </div>
+
+    <script src="seccion_compra.js"></script>
+</body>
+
+</html>
