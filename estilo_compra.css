@@ -1,0 +1,82 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#titulo {
+    display: inline;
+}
+#links {
+    display: inline;
+}
+#div_padre {
+    margin-top: 120px;
+}
+
+#imagenes {
+    border: 1px black;
+    text-align: center;
+}
+
+#cafe {
+    width: 200px;
+    height: 200px;
+}
+#chocolate {
+    margin-left:  70px;
+    margin-right: 70px;
+    width: 200px;
+    height: 200px;
+}
+#alfajor {
+    width: 200px;
+    height: 200px;
+}
+
+#inputs {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.input_2 {
+    margin-left:  95px;
+    margin-right: 95px;
+}
+
+.div_boton_agregar {
+    margin-top: 20px;
+    text-align: center;
+}
+.boton_agregar {
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 160, 78);
+}
+
+.div_h4 {
+    margin-top: 20px;
+    
+}
+.h4_titulo {
+    display: inline;
+}
+.h4_cant_productos {
+    display: inline;
+}
+.h4_tipo_pago {
+    display: inline;
+}
+
+#contenedor_boton_pagar {
+    margin-top: 60px;
+    text-align: center;
+}
+#boton_pagar {
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 119, 223);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
